@@ -1,0 +1,76 @@
+body {
+    background-color: #151618;
+}
+
+.titulo {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 60vh;
+    margin-top: 30px;
+}
+
+.estilo-card {
+    background-color: rgba(23, 23, 115, 0.574);
+    padding: 5%;
+    width: 20%;
+    border-radius: 50px;
+    margin-left: 62vh;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+    box-shadow:inset 0 10px 10px rgba(0, 0, 1, 0.438);
+}
+
+.estilo-card:hover {
+    transform: scale(1.05);
+    box-shadow:0 0 50px rgba(127, 4, 234, 0.438);
+}
+
+.pantallita {
+    border-radius: 50px;
+    padding: 4%;
+    width: 90%;
+    color: white;
+    font-size: 3vh;
+    font-family: sans-serif;
+    box-shadow:inset 0 10px 10px rgba(0, 0, 1, 0.438);
+}
+
+.boton {
+    margin-top: 50px;
+    margin-left: 55px;
+    font-family: sans-serif;
+    border: 2px solid rgb(44, 35, 142);
+    border-radius: 20px;
+    padding: 5%;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(40, 40, 159);
+    box-shadow:inset 0 10px 10px rgba(0, 0, 1, 0.438);
+    transition: transform 0.1s ease;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+    box-shadow:inset 0 10px 10px rgba(0, 0, 1, 0.438);
+}
+
+.boton2 {
+    margin-top: 50px;
+    margin-left: 110px;
+    font-family: sans-serif;
+    border: 2px solid rgb(44, 35, 142);
+    border-radius: 20px;
+    padding: 5%;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(40, 40, 159);
+    box-shadow:inset 0 10px 10px rgba(0, 0, 1, 0.438);
+    transition: transform 0.1s ease;
+}
+
+.boton2:hover {
+    transform: scale(1.05);
+    box-shadow:inset 0 10px 10px rgba(0, 0, 1, 0.438);
+}
